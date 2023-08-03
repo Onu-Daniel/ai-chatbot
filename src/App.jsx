@@ -5,7 +5,7 @@ import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react'
 
-const OPENAI_API_KEY = "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"; //Replace with your generated openai api key
+const OPENAI_API_KEY = "YOUR API KEY"; //Replace with your generated openai api key
 function App() {
   const [isChatbotTyping, setIsChatbotTyping] = useState(false);
   // State to store chat messages
